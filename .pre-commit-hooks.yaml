@@ -1,0 +1,5 @@
+- id: prefix-jira-hook
+  name: prefix-jira-hook
+  description: "Prefixes the Jira ticket number in commits"
+  entry: pre-commit-hooks/prefix-jira-hook.sh
+  language: script
