@@ -1,2 +1,2 @@
 # Toolbox for Git Commit Hooks
-https://www.notion.so/paper-co/Setup-19fd5a7c0eb74b43a59453cf0d6c47a1
+[https://www.notion.so/paper-co/How-to-use-Git-Hooks](https://www.notion.so/paper-co/How-to-use-Git-Hooks-33faa114f9204758a1655a0ad92ef250)
