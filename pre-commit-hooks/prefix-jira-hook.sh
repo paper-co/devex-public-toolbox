@@ -22,6 +22,12 @@ fi
 
 # Extract issue id from branch name
 ISSUE_ID=$(echo "$BRANCH_NAME" | grep -o -E "$REGEX_ISSUE_ID")
+
+if [ -z "$ISSUE_ID" ]; then
+    echo "No issue detected"
+    exit 0
+fi
+
 PREFIX="$ISSUE_ID: "
 
 # Check if message already has issue prefix
